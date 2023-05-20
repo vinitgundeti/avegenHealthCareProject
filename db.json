@@ -1,0 +1,54 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "name": "Vinit",
+            "img": ""
+        },
+        {
+            "id": 2,
+            "name": "John",
+            "img": ""
+        },
+        {
+            "id": 3,
+            "name": "Bob",
+            "img": ""
+        },
+        {
+            "id": 4,
+            "name": "Dev",
+            "img": ""
+        },
+        {
+            "id": 5,
+            "name": "Billie",
+            "img": ""
+        },
+        {
+            "id": 6,
+            "name": "Monika",
+            "img": ""
+        },
+        {
+            "id": 7,
+            "name": "Akshay",
+            "img": ""
+        },
+        {
+            "id": 8,
+            "name": "Nikhil",
+            "img": ""
+        },
+        {
+            "id": 9,
+            "name": "Vijay",
+            "img": ""
+        },
+        {
+            "id": 10,
+            "name": "Chetan",
+            "img": ""
+        }
+    ]
+}
