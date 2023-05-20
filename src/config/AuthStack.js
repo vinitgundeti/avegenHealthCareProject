@@ -1,16 +1,19 @@
 import React, {useState} from 'react';
 import AuthContext from './AuthContext';
 import Login from '../containers/login';
+import Home from '../containers/home';
+import AppNavigator from './AppNavigator';
 
 export default function AuthStack() {
-  const [userName, setUserName] = useState(null);
+  const [user, setUser] = useState(null);
   let value = {
-    userName,
-    setUserName,
+    user,
+    setUser,
+    logOut: () => setUser(null),
   };
   return (
     <AuthContext.Provider value={value}>
-      <Login />
+      {user === null ? <Login /> : <AppNavigator />}
     </AuthContext.Provider>
   );
 }

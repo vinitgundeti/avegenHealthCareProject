@@ -1,27 +1,44 @@
 import React, {useEffect, useState} from 'react';
-import {ScrollView, Text, View} from 'react-native';
+import {Platform, ScrollView, StyleSheet, Text, View} from 'react-native';
 import UserCard from '../components/Login/userCard';
+import {Colors, urls} from '../config/constants';
+import globalStyles from '../config/globalStyles';
+
+const fileStyle = StyleSheet.create({
+  container: {
+    flex: 1,
+    // justifyContent: 'center',
+    // alignItems: 'center',
+  },
+});
+
 export default function Login() {
   const [users, setUsers] = useState([]);
   useEffect(() => {
-    fetch('http://10.0.2.2:3002/users', {
-      headers: {
-        'Content-type': 'application/json',
-      },
-    })
+    fetch(urls.baseUrl + '/users')
       .then(res => {
-        res.json().then(response => {
-          console.log(response);
-        });
+        res
+          .json()
+          .then(response => {
+            console.log('response : ', response);
+            setUsers(response);
+          })
+          .catch(err => {
+            console.log('err : ', err);
+          });
       })
       .catch(err => {
-        console.log(err);
+        console.log('Err ', err);
       });
   }, []);
   return (
-    <View>
-      <Text>Login</Text>
-      <UserCard />
+    <View style={[fileStyle.container, globalStyles.wrapper]}>
+      <Text style={globalStyles.headerTitle}>Login</Text>
+      <ScrollView style={[fileStyle.container]}>
+        {users.map(item => (
+          <UserCard key={item.id} user={item} />
+        ))}
+      </ScrollView>
     </View>
   );
 }

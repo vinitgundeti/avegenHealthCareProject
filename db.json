@@ -2,53 +2,92 @@
     "users": [
         {
             "id": 1,
-            "name": "Vinit",
-            "img": ""
+            "name": "Emma Johnson",
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTs1pd-BYqknYhHyLcTz2BQ8qrCRpKT0GBoBqqr7hZSygsob-qeYk8WhtL6CXoMGEhgrsI&usqp=CAU",
+            "trackedData": [
+                {
+                    "date": "2023-05-16",
+                    "mood": "Very Happy",
+                    "bp": "120/80"
+                },
+                {
+                    "date": "2023-05-12",
+                    "mood": "Unhappy",
+                    "bp": "130/85"
+                },
+                {
+                    "date": "2023-05-04",
+                    "mood": "Happy",
+                    "bp": "110/70"
+                }
+            ]
         },
         {
             "id": 2,
-            "name": "John",
-            "img": ""
+            "name": "Benjamin Thompson",
+            "img": "https://cdn-icons-png.flaticon.com/512/219/219983.png",
+            "trackedData": []
         },
         {
             "id": 3,
-            "name": "Bob",
-            "img": ""
+            "name": "Olivia Davis",
+            "img": "https://cdn-icons-png.flaticon.com/512/168/168882.png",
+            "trackedData": []
         },
         {
             "id": 4,
-            "name": "Dev",
-            "img": ""
+            "name": "Ethan Martinez",
+            "img": "https://cdn-icons-png.flaticon.com/512/147/147142.png",
+            "trackedData": []
         },
         {
             "id": 5,
-            "name": "Billie",
-            "img": ""
+            "name": "Ava Clark",
+            "img": "https://www.pngall.com/wp-content/uploads/12/Avatar-Profile-PNG-Photos.png",
+            "trackedData": []
         },
         {
             "id": 6,
-            "name": "Monika",
-            "img": ""
+            "name": "Noah Rodriguez",
+            "img": "https://cdn-icons-png.flaticon.com/512/145/145867.png",
+            "trackedData": []
         },
         {
             "id": 7,
-            "name": "Akshay",
-            "img": ""
+            "name": "Sophia Anderson",
+            "img": "https://cdn-icons-png.flaticon.com/512/3532/3532736.png",
+            "trackedData": []
         },
         {
             "id": 8,
-            "name": "Nikhil",
-            "img": ""
+            "name": "Liam Wilson",
+            "img": "https://cdn-icons-png.flaticon.com/512/6268/6268137.png",
+            "trackedData": []
         },
         {
             "id": 9,
-            "name": "Vijay",
-            "img": ""
+            "name": "Isabella Turner",
+            "img": "https://cdn-icons-png.flaticon.com/512/6812/6812872.png",
+            "trackedData": []
         },
         {
             "id": 10,
-            "name": "Chetan",
-            "img": ""
+            "name": "Chelucas Mooretan",
+            "img": "https://cdn-icons-png.flaticon.com/512/5556/5556487.png",
+            "trackedData": [
+                {
+                    "date": "2023-05-16",
+                    "mood": "Very Happy"
+                },
+                {
+                    "date": "2023-05-12",
+                    "mood": "Sad"
+                },
+                {
+                    "date": "2023-05-04",
+                    "mood": "Happy"
+                }
+            ]
         }
     ]
 }
