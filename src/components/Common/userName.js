@@ -1,4 +1,4 @@
-import {useContext} from 'react';
+import React, {useContext} from 'react';
 import AuthContext from '../../config/AuthContext';
 import {StyleSheet, Text} from 'react-native';
 import globalStyles from '../../config/globalStyles';

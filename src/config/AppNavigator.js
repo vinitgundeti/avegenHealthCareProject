@@ -5,7 +5,7 @@ import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 import Home from '../containers/home';
 import User from '../containers/user';
 import Tracker from '../containers/tracker';
-import {Image, View} from 'react-native';
+import {Image} from 'react-native';
 import globalStyles from './globalStyles';
 
 const Stack = createNativeStackNavigator();

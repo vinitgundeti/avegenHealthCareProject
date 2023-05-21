@@ -1,7 +1,6 @@
 import React, {useState} from 'react';
 import AuthContext from './AuthContext';
 import Login from '../containers/login';
-import Home from '../containers/home';
 import AppNavigator from './AppNavigator';
 
 export default function AuthStack() {

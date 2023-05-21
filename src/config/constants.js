@@ -23,5 +23,5 @@ export const moodRatings = {
 };
 
 export const regexStrings = {
-  bp: /^\d+\/\d+$/, //to check if entered string is starting and ending with number and '/' in between
+  bp: /^\d+\/\d+$/,
 };

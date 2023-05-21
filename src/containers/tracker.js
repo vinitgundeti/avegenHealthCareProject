@@ -1,7 +1,6 @@
 import React, {useContext, useEffect, useState} from 'react';
 import {ScrollView, StyleSheet, Text} from 'react-native';
 import AuthContext from '../config/AuthContext';
-import UserName from '../components/Common/userName';
 import globalStyles from '../config/globalStyles';
 import {Colors} from '../config/constants';
 import UnselectedTracker from '../components/Tracker/unSelectedTracker';
@@ -35,7 +34,6 @@ export default function Tracker(props) {
   return (
     <ScrollView
       style={[fileStyle.container, globalStyles.flex1, globalStyles.wrapper]}>
-      {/* <UserName /> */}
       <Text style={[fileStyle.title, globalStyles.headerTitle]}>
         {moment(day, 'YYYY-MM-DD').format('DD MMM, YYYY')}
       </Text>

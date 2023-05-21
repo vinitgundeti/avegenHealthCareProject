@@ -2,7 +2,6 @@ import React, {useContext} from 'react';
 import {Image, StyleSheet, Text, TouchableOpacity, View} from 'react-native';
 import AuthContext from '../config/AuthContext';
 import globalStyles from '../config/globalStyles';
-import UserName from '../components/Common/userName';
 import {Colors} from '../config/constants';
 
 const fileStyle = StyleSheet.create({
@@ -14,7 +13,6 @@ const fileStyle = StyleSheet.create({
     width: 80,
     height: 80,
     alignSelf: 'center',
-    // marginBottom: 30,
   },
   name: {
     fontSize: 18,
@@ -34,7 +32,6 @@ export default function User() {
   return (
     <View
       style={[fileStyle.container, globalStyles.wrapper, globalStyles.flex1]}>
-      {/* <UserName /> */}
       <View style={fileStyle.bottomContent}>
         <Image
           source={{

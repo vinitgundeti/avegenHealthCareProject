@@ -1,4 +1,4 @@
-import {Text, View} from 'react-native';
+import React, {Text, View} from 'react-native';
 import globalStyles from '../../config/globalStyles';
 
 export default function Loader() {

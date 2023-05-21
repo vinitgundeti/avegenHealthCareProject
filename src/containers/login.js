@@ -1,14 +1,12 @@
 import React, {useEffect, useState} from 'react';
-import {Platform, ScrollView, StyleSheet, Text, View} from 'react-native';
+import {ScrollView, StyleSheet, Text, View} from 'react-native';
 import UserCard from '../components/Login/userCard';
-import {Colors, urls} from '../config/constants';
+import {urls} from '../config/constants';
 import globalStyles from '../config/globalStyles';
 
 const fileStyle = StyleSheet.create({
   container: {
     flex: 1,
-    // justifyContent: 'center',
-    // alignItems: 'center',
   },
 });
 
