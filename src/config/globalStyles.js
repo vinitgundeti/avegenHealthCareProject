@@ -11,6 +11,12 @@ export default StyleSheet.create({
     fontSize: 22,
     marginBottom: 10,
   },
+  lableStyle: {
+    fontSize: 16,
+    marginBottom: 0,
+    color: Colors.black,
+    fontWeight: '500',
+  },
   wrapper: {
     paddingHorizontal: 16,
   },
@@ -30,6 +36,6 @@ export default StyleSheet.create({
   buttonText: {
     color: Colors.white,
     fontWeight: '600',
-    fontSize: 16
-  }
+    fontSize: 16,
+  },
 });

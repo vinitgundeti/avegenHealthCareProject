@@ -13,3 +13,15 @@ export const Colors = {
   green: 'green',
   gray: 'gray',
 };
+
+export const moodRatings = {
+  'Very Unhappy': '😪',
+  Unhappy: '😞',
+  Neutral: '🙂',
+  Happy: '😊',
+  'Very Happy': '😁',
+};
+
+export const regexStrings = {
+  bp: /^\d+\/\d+$/, //to check if entered string is starting and ending with number and '/' in between
+};
