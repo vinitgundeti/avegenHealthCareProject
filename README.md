@@ -4,6 +4,8 @@ Welcome to avegenHealthCare! This project aims to provide a healthcare managemen
 <kbd>
 <img src="src/assets/images/readme/recording.gif" alt="demo" width="380">
 </kbd>
+
+
 ## Installation
 
 1. Clone the repository:
