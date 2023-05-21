@@ -2,7 +2,13 @@ import {useNavigation} from '@react-navigation/native';
 import React, {useContext, useEffect, useState} from 'react';
 import {Calendar} from 'react-native-calendars';
 import AuthContext from '../../config/AuthContext';
+import {StyleSheet} from 'react-native';
 
+const fileStyle = StyleSheet.create({
+  calendarStyle: {
+    marginTop: 20,
+  },
+});
 const HomeCalendar = () => {
   const [markedDateObj, setMarkedDateObj] = useState({});
   const currentDate = new Date();
@@ -21,9 +27,7 @@ const HomeCalendar = () => {
   }, [user.trackedData]);
   return (
     <Calendar
-      style={{
-        marginTop: 20,
-      }}
+      style={fileStyle.calendarStyle}
       current={currentDate.toISOString().split('T')[0]}
       minDate={minDate.toISOString().split('T')[0]}
       maxDate={currentDate.toISOString().split('T')[0]}

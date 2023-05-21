@@ -17,6 +17,14 @@ export default StyleSheet.create({
     color: Colors.black,
     fontWeight: '500',
   },
+  textStyle: {
+    color: Colors.black,
+  },
+  menuIcon: {
+    width: 20,
+    height: 20,
+    resizeMode: 'contain',
+  },
   wrapper: {
     paddingHorizontal: 16,
   },

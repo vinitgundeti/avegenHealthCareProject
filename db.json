@@ -1,93 +1,96 @@
 {
-    "users": [
+  "users": [
+    {
+      "name": "Emma Johnson",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTs1pd-BYqknYhHyLcTz2BQ8qrCRpKT0GBoBqqr7hZSygsob-qeYk8WhtL6CXoMGEhgrsI&usqp=CAU",
+      "trackedData": [
         {
-            "id": 1,
-            "name": "Emma Johnson",
-            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTs1pd-BYqknYhHyLcTz2BQ8qrCRpKT0GBoBqqr7hZSygsob-qeYk8WhtL6CXoMGEhgrsI&usqp=CAU",
-            "trackedData": [
-                {
-                    "date": "2023-05-16",
-                    "mood": "Very Happy",
-                    "bp": "120/80"
-                },
-                {
-                    "date": "2023-05-12",
-                    "mood": "Unhappy",
-                    "bp": "130/85"
-                },
-                {
-                    "date": "2023-05-04",
-                    "mood": "Happy",
-                    "bp": "110/70"
-                }
-            ]
+          "date": "2023-05-16",
+          "mood": "Very Happy",
+          "bp": "120/80"
         },
         {
-            "id": 2,
-            "name": "Benjamin Thompson",
-            "img": "https://cdn-icons-png.flaticon.com/512/219/219983.png",
-            "trackedData": []
+          "date": "2023-05-12",
+          "mood": "Unhappy",
+          "bp": "130/85"
         },
         {
-            "id": 3,
-            "name": "Olivia Davis",
-            "img": "https://cdn-icons-png.flaticon.com/512/168/168882.png",
-            "trackedData": []
+          "date": "2023-05-04",
+          "mood": "Happy",
+          "bp": "110/70"
         },
         {
-            "id": 4,
-            "name": "Ethan Martinez",
-            "img": "https://cdn-icons-png.flaticon.com/512/147/147142.png",
-            "trackedData": []
+          "date": "2023-05-18",
+          "mood": "Unhappy",
+          "bp": "140/90"
         },
         {
-            "id": 5,
-            "name": "Ava Clark",
-            "img": "https://www.pngall.com/wp-content/uploads/12/Avatar-Profile-PNG-Photos.png",
-            "trackedData": []
-        },
-        {
-            "id": 6,
-            "name": "Noah Rodriguez",
-            "img": "https://cdn-icons-png.flaticon.com/512/145/145867.png",
-            "trackedData": []
-        },
-        {
-            "id": 7,
-            "name": "Sophia Anderson",
-            "img": "https://cdn-icons-png.flaticon.com/512/3532/3532736.png",
-            "trackedData": []
-        },
-        {
-            "id": 8,
-            "name": "Liam Wilson",
-            "img": "https://cdn-icons-png.flaticon.com/512/6268/6268137.png",
-            "trackedData": []
-        },
-        {
-            "id": 9,
-            "name": "Isabella Turner",
-            "img": "https://cdn-icons-png.flaticon.com/512/6812/6812872.png",
-            "trackedData": []
-        },
-        {
-            "id": 10,
-            "name": "Chelucas Mooretan",
-            "img": "https://cdn-icons-png.flaticon.com/512/5556/5556487.png",
-            "trackedData": [
-                {
-                    "date": "2023-05-16",
-                    "mood": "Very Happy"
-                },
-                {
-                    "date": "2023-05-12",
-                    "mood": "Sad"
-                },
-                {
-                    "date": "2023-05-04",
-                    "mood": "Happy"
-                }
-            ]
+          "date": "2023-05-20",
+          "mood": "Neutral",
+          "bp": "120/80"
         }
-    ]
+      ],
+      "id": 1
+    },
+    {
+      "name": "Benjamin Thompson",
+      "img": "https://cdn-icons-png.flaticon.com/512/219/219983.png",
+      "trackedData": [
+        {
+          "date": "2023-05-17",
+          "mood": "Unhappy",
+          "bp": "140/90"
+        }
+      ],
+      "id": 2
+    },
+    {
+      "id": 3,
+      "name": "Olivia Davis",
+      "img": "https://cdn-icons-png.flaticon.com/512/168/168882.png",
+      "trackedData": []
+    },
+    {
+      "id": 4,
+      "name": "Ethan Martinez",
+      "img": "https://cdn-icons-png.flaticon.com/512/147/147142.png",
+      "trackedData": []
+    },
+    {
+      "id": 5,
+      "name": "Ava Clark",
+      "img": "https://www.pngall.com/wp-content/uploads/12/Avatar-Profile-PNG-Photos.png",
+      "trackedData": []
+    },
+    {
+      "id": 6,
+      "name": "Noah Rodriguez",
+      "img": "https://cdn-icons-png.flaticon.com/512/145/145867.png",
+      "trackedData": []
+    },
+    {
+      "id": 7,
+      "name": "Sophia Anderson",
+      "img": "https://cdn-icons-png.flaticon.com/512/3532/3532736.png",
+      "trackedData": []
+    },
+    {
+      "id": 8,
+      "name": "Liam Wilson",
+      "img": "https://cdn-icons-png.flaticon.com/512/6268/6268137.png",
+      "trackedData": []
+    },
+    {
+      "id": 9,
+      "name": "Isabella Turner",
+      "img": "https://cdn-icons-png.flaticon.com/512/6812/6812872.png",
+      "trackedData": []
+    },
+    {
+      "id": 10,
+      "name": "Chelucas Mooretan",
+      "img": "https://cdn-icons-png.flaticon.com/512/5556/5556487.png",
+      "trackedData": []
+    }
+  ]
 }

@@ -25,7 +25,7 @@ export default function SelectedTracker({selectedData}) {
       </View>
       <View style={fileStyle.inputCard}>
         <Text style={globalStyles.lableStyle}>Entered BP Value :</Text>
-        <Text>{selectedData.bp}</Text>
+        <Text style={globalStyles.textStyle}>{selectedData.bp} mmHg</Text>
       </View>
     </Fragment>
   );

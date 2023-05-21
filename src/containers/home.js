@@ -1,9 +1,8 @@
 import React from 'react';
-import {StyleSheet, Text, View} from 'react-native';
+import {StyleSheet, View} from 'react-native';
 import globalStyles from '../config/globalStyles';
-import {Colors, urls} from '../config/constants';
+import {Colors} from '../config/constants';
 import HomeCalendar from '../components/Home/homeCalendar';
-import Loader from '../components/Common/loader';
 import UserName from '../components/Common/userName';
 
 const fileStyle = StyleSheet.create({
