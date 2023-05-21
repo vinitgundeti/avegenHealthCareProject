@@ -28,8 +28,12 @@ npx react-native run-android
 npx react-native run-ios
 ```
 
-For Login, You can select any listed user
-![login](src/assets/images/readme/login.png)
+**For Login, You can select any listed user**
 
-To Logout, Go to users screen and you can logout from there
-![logout](src/assets/images/readme/logout.png)
+
+<img src="src/assets/images/readme/login.png" alt="login" width="380">
+
+**To Logout, Go to users screen and you can logout from there**
+
+
+<img src="src/assets/images/readme/logout.png" alt="logout" width="380">
