@@ -30,10 +30,12 @@ npx react-native run-ios
 
 **For Login, You can select any listed user**
 
-
+<kbd>
 <img src="src/assets/images/readme/login.png" alt="login" width="380">
+</kbd>
 
 **To Logout, Go to users screen and you can logout from there**
 
-
-<img src="src/assets/images/readme/logout.png" alt="logout" width="380">
+<kbd>
+<img src="src/assets/images/readme/logout.png" alt="logout" width="380" style="border: 1px solid black;">
+</kbd>
