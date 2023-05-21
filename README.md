@@ -27,3 +27,9 @@ npx react-native run-android
 ```shell
 npx react-native run-ios
 ```
+
+For Login, You can select any listed user
+![login](src/assets/images/readme/login.png)
+
+To Logout, Go to users screen and you can logout from there
+![logout](src/assets/images/readme/logout.png)
